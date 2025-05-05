@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center; /* pre-work*/
+}
+
+/* pre-work */
+.stats-container:hover {
+    cursor: pointer;
+    align-items: center;
 }
 
 .stats-card {
